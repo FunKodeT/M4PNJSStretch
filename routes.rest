@@ -1,0 +1,44 @@
+### GET ROOT PATH
+GET http://localhost:3001/ HTTP/1.1
+
+### GET TOOELETECH ROUTE
+GET http://localhost:3001/ttech/ HTTP/1.1
+
+### GET FUNKODET ROUTE
+GET http://localhost:3001/kodeT/ HTTP/1.1
+
+### GET TOOELETECHJSON ROUTE
+GET http://localhost:3001/ttechJSON
+
+### GET AWESOMENAMEJSON ROUTE
+GET http://localhost:3001/awesomeNm
+
+### GET STUDENTSALL ROUTE
+GET http://localhost:3001/students/ HTTP/1.1
+
+### GET STUDENTSONE ROUTE
+GET http://localhost:3001/students/66465e4cd8a856edbc767f8b HTTP/1.1
+
+### POST STUDENTSNEW ROUTE
+POST http://localhost:3001/students HTTP/1.1
+Content-Type: application/json
+{
+    "firstName": "Test1",
+    "lastName": "Example1",
+    "email": "test1Example1@email.com",
+    "age": "101",
+    "currentCollege":"Tooele Technical College"
+}
+
+### PATCH STUDENTSONE ROUTE
+PATCH http://localhost:3001/students/66467ae9c5fa4d509e4b9d1a HTTP/1.1
+{
+    "firstName": "Test",
+    "lastName": "Example",
+    "email": "testExample@gmail.com",
+    "age": "101",
+    "currentCollege": "Tooele Technical College"
+}
+
+### DELETE STUDENTSONE ROUTE
+DELETE http://localhost:3001/students/66467ae9c5fa4d509e4b9d1a HTTP/1.1

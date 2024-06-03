@@ -1,0 +1,27 @@
+{
+	"name": "routes_api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"mongoDB": "npm:mongodb@^6.6.1",
+		"mongoose": "^8.3.5",
+		"swagger-ui-express": "^5.0.0"
+	},
+	"devDependencies": {
+		"dotenv": "^16.4.5",
+		"mongodb": "^6.6.2",
+		"nodemon": "^2.0.22",
+		"swagger-autogen": "^2.23.7"
+	}
+}
