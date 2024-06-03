@@ -105,6 +105,36 @@
     </tr>
 </table>
 
+---
+
+<h4 align="center">VERSION 0.1</h4>
+
+---
+
+-   Merged FIRST into OPERATIONS
+-   Pushed LOCAL to ORIGIN
+
+---
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|1.0|=>|0.1|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+---
+
 <h3 align="center">BRANCH 1</h3>
 
 <h4 align="center">VERSION 1.0</h4>
